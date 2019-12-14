@@ -1,0 +1,132 @@
+.login {
+  @apply .flex .items-center .text-default .bg-brand .font-normal .antialiased;
+
+  #login {
+    @apply .p-0;
+
+    a {
+      &:hover,
+      &:focus {
+        @apply .shadow-none;
+      }
+    }
+
+    h1 {
+      @apply .flex .justify-center .items-center .bg-trim .rounded-full .w-20 .h-20 .mx-auto .p-0 .my-0;
+
+      a {
+        @apply .block .text-brand .w-auto .h-auto .leading-none .font-bold .p-0 .mx-auto .my-0 .text-center .text-base .overflow-visible;
+
+        background-image: none;
+        text-indent: 0;
+        font-size: 0;
+
+        &::first-letter {
+          @apply .text-5xl;
+        }
+      }
+    }
+
+    #loginform,
+    #resetpassform,
+    #lostpasswordform {
+      @apply .rounded .bg-trim .shadow-lg .p-8 .border-none;
+
+      label {
+        @apply .text-default .font-medium .uppercase;
+      }
+
+      .wp-hide-pw {
+        @apply .text-brand .mt-1 .border-none;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        @apply .bg-trim-alt .text-default .border .border-trim .py-1 .px-2 .mt-1;
+      }
+
+      input[type="checkbox"] {
+        @apply .bg-trim-alt .text-default .shadow .border .border-trim
+      }
+
+      input:checked::before {
+        @apply .opacity-50;
+        content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");
+      }
+
+      input:focus,
+      input:hover {
+        @apply .shadow-lg;
+        @apply .border-brand;
+      }
+
+      #wp-submit {
+        @apply .py-0 .px-2 .bg-brand .text-white .border-none .shadow .outline-none .cursor-pointer;
+
+        &:active,
+        &:hover,
+        &:focus {
+          @apply .bg-brand;
+        }
+
+        &[disabled],
+        &:disabled,
+        &.button-primary-disabled,
+        &.disabled {
+          @apply .bg-brand .text-white .border-none .shadow-none .cursor-not-allowed;
+        }
+      }
+
+      .forgetmenot {
+        @apply .flex .items-center .mt-1;
+
+        input {
+          @apply .m-0;
+        }
+
+        label {
+          @apply .my-0 .ml-2 .opacity-50 .font-normal .capitalize;
+        }
+      }
+    }
+
+    #backtoblog {
+      @apply .hidden;
+    }
+
+    #nav {
+      @apply .mt-3 .mx-0 .mb-0 .p-0 .text-center;
+
+      a {
+        @apply .text-default .opacity-75;
+
+        &:hover,
+        &:focus {
+          @apply .text-default .opacity-100 .underline;
+        }
+      }
+    }
+
+    .message,
+    #login_error {
+      @apply .bg-trim .text-default .border-l-4 .text-sm .my-4;
+
+      a {
+        @apply .text-brand .opacity-75;
+
+        &:hover,
+        &:focus {
+          @apply .text-brand .opacity-100;
+        }
+      }
+    }
+
+    .message {
+      @apply .border-green-500;
+    }
+
+    #login_error {
+      @apply .border-red-500;
+    }
+  }
+}
