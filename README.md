@@ -1,7 +1,6 @@
 # Modern Login
 
 ![Latest Stable Version](https://img.shields.io/packagist/v/log1x/modern-login?style=flat-square)
-![Build Status](https://img.shields.io/circleci/build/github/Log1x/modern-login?style=flat-square)
 ![Total Downloads](https://img.shields.io/packagist/dt/log1x/modern-login?style=flat-square)
 
 Here lives a simple `mu-plugin` to whitelabel and modernize `wp-login.php`. No admin panels, no bloat – just a simple filter to optionally customize the CSS properties with your color palette.
