@@ -41,6 +41,21 @@ add_filter('login_color_palette', function () {
 });
 ```
 
+### Changing the Logo
+
+The logo uses the first letter of the login header text set by WordPress. You can customize this using the [`login_headertext`](https://developer.wordpress.org/reference/hooks/login_headertext/) filter:
+
+```php
+/**
+ * Change the WordPress login header to the blog name.
+ *
+ * @return string
+ */
+add_filter('login_headertext', function () {
+    return get_bloginfo('name');
+});
+```
+
 ## Development
 
 Modern Login is built using TailwindCSS and compiled with Laravel Mix.
