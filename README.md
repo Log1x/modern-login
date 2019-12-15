@@ -9,7 +9,7 @@ Here lives a simple `mu-plugin` to whitelabel and modernize `wp-login.php`. No a
 
 ## Requirements
 
-- [PHP](https://secure.php.net/manual/en/install.php) >= 7.1
+- [PHP](https://secure.php.net/manual/en/install.php) >= 7.1.3
 - [Composer](https://getcomposer.org/download/)
 
 ## Installation
@@ -60,7 +60,7 @@ add_filter('login_headertext', function () {
 
 Modern Login is built using TailwindCSS and compiled with Laravel Mix.
 
-```
+```bash
 $ yarn install
 $ yarn run start
 ```
