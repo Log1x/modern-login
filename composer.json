@@ -1,6 +1,7 @@
 {
   "name": "log1x/modern-login",
   "type": "wordpress-muplugin",
+  "license": "MIT",
   "description": "A whitelabeled and modernized wp-login.php",
   "keywords": [
     "wordpress",
