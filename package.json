@@ -2,7 +2,7 @@
   "private": true,
   "devDependencies": {
     "cross-env": "^6.0.3",
-    "laravel-mix": "^5.0.0",
+    "laravel-mix": "^5.0.1",
     "precss": "^4.0.0",
     "tailwindcss": "^1.1.4"
   },

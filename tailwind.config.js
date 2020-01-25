@@ -1,6 +1,9 @@
 module.exports = {
   theme: {
     extend: {
+      fontSize: {
+        'none': '0',
+      },
       colors: {
         default: 'var(--login-text, #fff)',
         brand: 'var(--login-brand, #0073aa)',
@@ -12,5 +15,16 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    ({ addUtilities }) => {
+      addUtilities({
+        '.indent-none': {
+          'text-indent': '0',
+        },
+        '.bg-none': {
+          'background-image': 'none',
+        },
+      }, ['responsive'])
+    }
+  ]
 }

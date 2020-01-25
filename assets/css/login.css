@@ -1,25 +1,23 @@
 .login {
-  @apply .flex .items-center .text-default .bg-brand .font-normal .antialiased;
+  @apply .flex .items-center .justify-center .text-default .bg-brand .font-normal .antialiased;
 
   #login {
-    @apply .p-0;
+    @apply .m-auto .p-0 .max-w-md;
 
     a {
+      @apply .text-brand;
+
       &:hover,
       &:focus {
         @apply .shadow-none;
       }
     }
 
-    h1 {
+    & > h1 {
       @apply .flex .justify-center .items-center .bg-trim .rounded-full .w-20 .h-20 .mx-auto .p-0 .my-0;
 
       a {
-        @apply .block .text-brand .w-auto .h-auto .leading-none .font-bold .p-0 .mx-auto .my-0 .text-center .text-base .overflow-visible;
-
-        background-image: none;
-        text-indent: 0;
-        font-size: 0;
+        @apply .block .text-brand .w-auto .h-auto .leading-none .bg-none .indent-none .font-bold .p-0 .mx-auto .my-0 .text-center .text-none .overflow-visible;
 
         &::first-letter {
           @apply .text-5xl;
@@ -29,11 +27,20 @@
 
     #loginform,
     #resetpassform,
-    #lostpasswordform {
+    #lostpasswordform,
+    .admin-email-confirm-form {
       @apply .rounded .bg-trim .shadow-lg .p-8 .border-none;
 
       label {
         @apply .text-default .font-medium .uppercase;
+      }
+
+      .admin-email__heading {
+        @apply .border-b .border-brand .text-white .font-semibold .text-xl;
+      }
+
+      .admin-email__details {
+        @apply .text-sm;
       }
 
       .wp-hide-pw {
@@ -60,7 +67,8 @@
         @apply .border-brand;
       }
 
-      #wp-submit {
+      #wp-submit,
+      #correct-admin-email {
         @apply .py-0 .px-2 .bg-brand .text-white .border-none .shadow .outline-none .cursor-pointer;
 
         &:active,
@@ -74,6 +82,23 @@
         &.button-primary-disabled,
         &.disabled {
           @apply .bg-brand .text-white .border-none .shadow-none .cursor-not-allowed;
+        }
+      }
+
+      a.button {
+        @apply .py-0 .px-2 .bg-trim-alt .text-white .border-none .shadow .outline-none .cursor-pointer;
+
+        &:active,
+        &:hover,
+        &:focus {
+          @apply .bg-trim-alt;
+        }
+
+        &[disabled],
+        &:disabled,
+        &.button-primary-disabled,
+        &.disabled {
+          @apply .bg-trim-alt .text-white .border-none .shadow-none .cursor-not-allowed .opacity-75;
         }
       }
 
