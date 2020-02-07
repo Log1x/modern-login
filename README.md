@@ -33,13 +33,14 @@ To customize the color palette, simply pass an array containing one or more of t
 ```php
 add_filter('login_color_palette', function () {
     return [
-        'text' => '#fff',
         'brand' => '#0073aa',
         'trim' => '#181818',
         'trim-alt' => '#282828',
     ];
 });
 ```
+
+Text color will automatically be inverted to `#fff` or `#111` determined by the [relative luminance](https://www.w3.org/TR/WCAG20/relative-luminance.xml) of the element's background color.
 
 ### Changing the Logo
 
