@@ -4,7 +4,7 @@
  * Plugin Name: Modern Login
  * Plugin URI:  https://github.com/log1x/modern-login
  * Description: A whitelabeled and modernized wp-login.php
- * Version:     1.0.3
+ * Version:     1.0.4
  * Author:      Brandon Nifong
  * Author URI:  https://github.com/log1x
  * Licence:     MIT
@@ -142,7 +142,7 @@ add_action('init', new class
             (int) hexdec($match[2]),
             (int) hexdec($match[3]),
         ] : [
-            (int) hexdec($match[1].$match[1]),
+            (int) hexdec($match[1] . $match[1]),
             (int) hexdec($match[2].$match[2]),
             (int) hexdec($match[3].$match[3]),
         ];
