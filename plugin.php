@@ -134,7 +134,7 @@ add_action('init', new class
         $match = [];
 
         if (! $regex || preg_match($regex, $hex, $match) !== 1) {
-            return $hex;
+            return '#fff';
         }
 
         $rgb = $length > 4 ? [
