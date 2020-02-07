@@ -114,7 +114,10 @@ add_action('init', new class
     /**
      * Invert a hexidecimal color to black or white depending on the luminance.
      *
-     * @param string $hex
+     * The final value is compared to the following formula:
+     *   ↪ sqrt(1.05 * 0.05) - 0.05 = 0.17912878474779
+     *
+     * @param  string $hex
      * @return string
      */
     public function invert($hex)
