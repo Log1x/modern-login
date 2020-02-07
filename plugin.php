@@ -4,7 +4,7 @@
  * Plugin Name: Modern Login
  * Plugin URI:  https://github.com/log1x/modern-login
  * Description: A whitelabeled and modernized wp-login.php
- * Version:     1.0.0
+ * Version:     1.0.3
  * Author:      Brandon Nifong
  * Author URI:  https://github.com/log1x
  * Licence:     MIT
@@ -32,7 +32,6 @@ add_action('init', new class
      * @var array
      */
     protected $colors = [
-        'text' => '#fff',
         'brand' => '#0073aa',
         'trim' => '#181818',
         'trim-alt' => '#282828',
@@ -52,6 +51,10 @@ add_action('init', new class
             $this->colors,
             apply_filters('login_color_palette', $this->colors)
         );
+
+        foreach ($this->colors as $label => $color) {
+            $this->colors[$label . '-invert'] = $this->invert($color);
+        }
 
         $this->injectColors();
         $this->enqueue();
@@ -106,5 +109,48 @@ add_action('init', new class
         add_filter('login_head', function () {
             echo "<style>:root { {$this->colors} }</style>", PHP_EOL;
         });
+    }
+
+    /**
+     * Invert a hexidecimal color to black or white depending on the luminance.
+     *
+     * @param string $hex
+     * @return string
+     */
+    public function invert($hex)
+    {
+        $expression = [
+            3 => '/^([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])$/',
+            4 => '/^#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])$/',
+            6 => '/^([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/',
+            7 => '/^#([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/',
+        ];
+
+        $length = strlen($hex);
+        $regex = $expression[$length] ?? false;
+        $match = [];
+
+        if (! $regex || preg_match($regex, $hex, $match) !== 1) {
+            return $hex;
+        }
+
+        $rgb = $length > 4 ? [
+            (int) hexdec($match[1]),
+            (int) hexdec($match[2]),
+            (int) hexdec($match[3]),
+        ] : [
+            (int) hexdec($match[1].$match[1]),
+            (int) hexdec($match[2].$match[2]),
+            (int) hexdec($match[3].$match[3]),
+        ];
+
+        foreach ($rgb as $i => $channel) {
+            $coef = $channel / 255;
+            $levels[$i] = $coef <= 0.03928 ? $coef / 12.92 : (($coef + 0.055) / 1.055) ** 2.4;
+        }
+
+        $levels = 0.2126 * $levels[0] + 0.7152 * $levels[1] + 0.0722 * $levels[2];
+
+        return $levels > 0.17912878474779 ? '#111' : '#fff';
     }
 });
