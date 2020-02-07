@@ -2,7 +2,7 @@
   @apply .flex .items-center .justify-center .text-brand-invert .bg-brand .font-normal .antialiased;
 
   #login {
-    @apply .m-auto .p-0 .max-w-md;
+    @apply .m-auto .p-3 .max-w-md;
 
     a {
       @apply .text-brand;

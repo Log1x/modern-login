@@ -4,7 +4,7 @@
  * Plugin Name: Modern Login
  * Plugin URI:  https://github.com/log1x/modern-login
  * Description: A whitelabeled and modernized wp-login.php
- * Version:     1.0.4
+ * Version:     1.0.5
  * Author:      Brandon Nifong
  * Author URI:  https://github.com/log1x
  * Licence:     MIT
