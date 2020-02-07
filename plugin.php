@@ -143,8 +143,8 @@ add_action('init', new class
             (int) hexdec($match[3]),
         ] : [
             (int) hexdec($match[1] . $match[1]),
-            (int) hexdec($match[2].$match[2]),
-            (int) hexdec($match[3].$match[3]),
+            (int) hexdec($match[2] . $match[2]),
+            (int) hexdec($match[3] . $match[3]),
         ];
 
         foreach ($rgb as $i => $channel) {
