@@ -26,6 +26,7 @@
     }
 
     #loginform,
+    #registerform,
     #resetpassform,
     #lostpasswordform,
     .admin-email-confirm-form {
@@ -47,18 +48,19 @@
         @apply .text-brand .mt-1 .border-none;
       }
 
-      input[type="text"],
-      input[type="password"] {
+      input[type='text'],
+      input[type='email'],
+      input[type='password'] {
         @apply .bg-trim-alt .text-trim-alt-invert .border .border-trim .py-1 .px-2 .mt-1;
       }
 
-      input[type="checkbox"] {
-        @apply .bg-trim-alt .text-trim-alt-invert .shadow .border .border-trim
+      input[type='checkbox'] {
+        @apply .bg-trim-alt .text-trim-alt-invert .shadow .border .border-trim;
       }
 
       input:checked::before {
         @apply .opacity-50;
-        content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");
+        content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E');
       }
 
       input:focus,
