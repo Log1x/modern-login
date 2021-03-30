@@ -118,7 +118,16 @@
     }
 
     #backtoblog {
-      @apply .hidden;
+      @apply .text-center;
+
+        a {
+          @apply .text-brand-invert .opacity-75;
+
+          &:hover,
+          &:focus {
+            @apply .text-brand-invert .opacity-100 .underline;
+          }
+        }
     }
 
     #nav {
