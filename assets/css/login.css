@@ -1,26 +1,26 @@
 .login {
-  @apply .flex .items-center .justify-center .text-brand-invert .bg-brand .font-normal .antialiased;
+  @apply flex items-center justify-center text-brand-invert bg-brand font-normal antialiased;
 
   #login {
-    @apply .m-auto .p-3 .max-w-md;
+    @apply m-auto p-3 max-w-md;
 
     a {
-      @apply .text-brand;
+      @apply text-brand;
 
       &:hover,
       &:focus {
-        @apply .shadow-none;
+        @apply shadow-none;
       }
     }
 
     & > h1 {
-      @apply .flex .justify-center .items-center .bg-trim .rounded-full .w-20 .h-20 .mx-auto .p-0 .my-0;
+      @apply flex justify-center items-center bg-trim rounded-full w-20 h-20 mx-auto p-0 my-0;
 
       a {
-        @apply .block .text-brand .w-auto .h-auto .leading-none .bg-none .indent-none .font-bold .p-0 .mx-auto .my-0 .text-center .text-none .overflow-visible;
+        @apply block text-brand w-auto h-auto leading-none bg-none indent-none font-bold p-0 mx-auto my-0 text-center text-none overflow-visible;
 
         &::first-letter {
-          @apply .text-5xl;
+          @apply text-5xl;
         }
       }
     }
@@ -30,130 +30,130 @@
     #resetpassform,
     #lostpasswordform,
     .admin-email-confirm-form {
-      @apply .rounded .bg-trim .shadow-lg .p-8 .border-none;
+      @apply rounded bg-trim shadow-lg p-8 border-none;
 
       label {
-        @apply .text-trim-invert .font-medium .uppercase;
+        @apply text-trim-invert font-medium uppercase;
       }
 
       .admin-email__heading {
-        @apply .border-b .border-brand .text-trim-invert .font-semibold .text-xl;
+        @apply border-b border-brand text-trim-invert font-semibold text-xl;
       }
 
       .admin-email__details {
-        @apply .text-sm;
+        @apply text-sm;
       }
 
       .wp-hide-pw {
-        @apply .text-brand .mt-1 .border-none;
+        @apply text-brand mt-1 border-none;
       }
 
-      input[type='text'],
-      input[type='email'],
-      input[type='password'] {
-        @apply .bg-trim-alt .text-trim-alt-invert .border .border-trim .py-1 .px-2 .mt-1;
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        @apply bg-trim-alt text-trim-alt-invert border border-trim py-1 px-2 mt-1;
       }
 
-      input[type='checkbox'] {
-        @apply .bg-trim-alt .text-trim-alt-invert .shadow .border .border-trim;
+      input[type="checkbox"] {
+        @apply bg-trim-alt text-trim-alt-invert shadow border border-trim;
       }
 
       input:checked::before {
-        @apply .opacity-50;
-        content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E');
+        @apply opacity-50;
+        content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwwww3org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M1483%20489l13494-581%20838H902L578%20967l134-125%20257%2024z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");
       }
 
       input:focus,
       input:hover {
-        @apply .shadow-lg;
-        @apply .border-brand;
+        @apply shadow-lg;
+        @apply border-brand;
       }
 
       #wp-submit,
       #correct-admin-email {
-        @apply .py-0 .px-2 .bg-brand .text-brand-invert .border-none .shadow .outline-none .cursor-pointer;
+        @apply py-0 px-2 bg-brand text-brand-invert border-none shadow outline-none cursor-pointer;
 
         &:active,
         &:hover,
         &:focus {
-          @apply .bg-brand;
+          @apply bg-brand;
         }
 
         &[disabled],
         &:disabled,
         &.button-primary-disabled,
         &.disabled {
-          @apply .bg-brand .text-brand-invert .border-none .shadow-none .cursor-not-allowed;
+          @apply bg-brand text-brand-invert border-none shadow-none cursor-not-allowed;
         }
       }
 
       a.button {
-        @apply .py-0 .px-2 .bg-trim-alt .text-trim-alt-invert .border-none .shadow .outline-none .cursor-pointer;
+        @apply py-0 px-2 bg-trim-alt text-trim-alt-invert border-none shadow outline-none cursor-pointer;
 
         &:active,
         &:hover,
         &:focus {
-          @apply .bg-trim-alt;
+          @apply bg-trim-alt;
         }
 
         &[disabled],
         &:disabled,
         &.button-primary-disabled,
         &.disabled {
-          @apply .bg-trim-alt .text-trim-alt-invert .border-none .shadow-none .cursor-not-allowed .opacity-75;
+          @apply bg-trim-alt text-trim-alt-invert border-none shadow-none cursor-not-allowed opacity-75;
         }
       }
 
       .forgetmenot {
-        @apply .flex .items-center .mt-1;
+        @apply flex items-center mt-1;
 
         input {
-          @apply .m-0;
+          @apply m-0;
         }
 
         label {
-          @apply .my-0 .ml-2 .opacity-50 .font-normal .capitalize;
+          @apply my-0 ml-2 opacity-50 font-normal;
         }
       }
     }
 
     #backtoblog {
-      @apply .hidden;
+      @apply hidden;
     }
 
     #nav {
-      @apply .mt-3 .mx-0 .mb-0 .p-0 .text-center;
+      @apply mt-3 mx-0 mb-0 p-0 text-center;
 
       a {
-        @apply .text-brand-invert .opacity-75;
+        @apply text-brand-invert opacity-75;
 
         &:hover,
         &:focus {
-          @apply .text-brand-invert .opacity-100 .underline;
+          @apply text-brand-invert opacity-100 underline;
         }
       }
     }
 
     .message,
     #login_error {
-      @apply .bg-trim .text-trim-invert .border-l-4 .text-sm .my-4;
+      @apply bg-trim text-trim-invert border-l-4 text-sm my-4;
 
       a {
-        @apply .text-brand .opacity-75;
+        @apply text-brand opacity-75;
 
         &:hover,
         &:focus {
-          @apply .text-brand .opacity-100;
+          @apply text-brand opacity-100;
         }
       }
     }
 
     .message {
-      @apply .border-green-500;
+      @apply border-green-500;
     }
 
     #login_error {
-      @apply .border-red-500;
+      @apply border-red-500;
     }
   }
 }
