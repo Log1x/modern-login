@@ -13,7 +13,10 @@ const mix = require('laravel-mix');
 
 mix.setPublicPath('./public');
 
-mix.postCss('assets/css/login.css', 'public/css', [
-    require('tailwindcss')('./tailwind.config.js'),
-    require('precss')(),
-]).version();
+mix.postCss('assets/css/login.css', 'public/css', [require('tailwindcss')('./tailwind.config.js'), require('precss')()]).version();
+
+mix.browserSync({
+  proxy: 'localhost:8080',
+  startPath: 'wp-login.php',
+  files: 'public/css/login.css',
+});

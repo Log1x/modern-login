@@ -62,9 +62,22 @@ add_filter('login_headertext', function () {
 Modern Login is built using TailwindCSS and compiled with Laravel Mix.
 
 ```bash
-$ yarn install
-$ yarn run start
+$ yarn
 ```
+
+In order to ease development, a light instance can be run with the following commands:
+
+```bash
+$ bash tests/serve.sh
+```
+
+In another terminal tab/window:
+
+```bash
+$ yarn start
+```
+
+You can test color values and other settings in `tests/mu.php`.
 
 ## Bug Reports
 
