@@ -69,6 +69,7 @@
         @apply border-brand;
       }
 
+      .wp-generate-pw,
       #wp-submit,
       #correct-admin-email {
         @apply py-0 px-2 bg-brand text-brand-invert border-none shadow outline-none cursor-pointer;
@@ -118,7 +119,16 @@
     }
 
     #backtoblog {
-      @apply hidden;
+      @apply text-center;
+
+        a {
+          @apply text-brand-invert opacity-75;
+
+          &:hover,
+          &:focus {
+            @apply text-brand-invert opacity-100 underline;
+          }
+        }
     }
 
     #nav {
