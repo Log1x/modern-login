@@ -65,19 +65,19 @@ Modern Login is built using TailwindCSS and compiled with Laravel Mix.
 $ yarn
 ```
 
-In order to ease development, a light instance can be run with the following commands:
+In order to ease development, Modern Login makes use of [`wp-env`](https://github.com/WordPress/gutenberg/tree/HEAD/packages/env#readme) to quickly setup a WordPress instance with everything needed (this requires Docker).
 
 ```bash
-$ bash tests/serve.sh
+$ npx wp-env start
 ```
 
-In another terminal tab/window:
+In another terminal tab/window, you can start browser sync and webpack to watch for changes:
 
 ```bash
 $ yarn start
 ```
 
-You can test color values and other settings in `tests/mu.php`.
+You can test color values and other settings in `tests/mu-plugins/mu.php`.
 
 ## Bug Reports
 

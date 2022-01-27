@@ -1,0 +1,9 @@
+{
+	"core": "WordPress/WordPress#5.9",
+	"plugins": [ "." ],
+    "mappings": {
+        "wp-content/mu-plugins": "./tests/mu-plugins",
+        "wp-content/plugins": "./tests/plugins",
+        "wp-content/languages": "./tests/languages"
+    }
+}

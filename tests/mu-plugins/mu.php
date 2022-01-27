@@ -9,6 +9,8 @@ add_filter('login_color_palette', function() {
     ];
 });
 
+add_filter('pre_option_users_can_register', '__return_true');
+
 // Add ACF fields
 add_action('init', function() {
     if( !function_exists('acf_add_local_field_group') ) {

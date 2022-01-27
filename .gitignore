@@ -2,4 +2,6 @@
 /vendor
 npm-debug.log
 yarn-error.log
-tests/tmp
+tests/languages
+tests/plugins
+tests/wp

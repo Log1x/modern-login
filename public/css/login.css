@@ -1,1 +1,283 @@
-.login{background-color:#0073aa;background-color:var(--login-brand,#0073aa);display:flex;align-items:center;justify-content:center;font-weight:400;color:#fff;color:var(--login-brand-invert,#fff);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.login #login{margin:auto;max-width:28rem;padding:.75rem}.login #login a{color:#0073aa;color:var(--login-brand,#0073aa)}.login #login a:focus,.login #login a:hover{--tw-shadow:0 0 transparent;box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.login #login>h1{background-color:#191919;background-color:var(--login-trim,#191919);border-radius:9999px;display:flex;align-items:center;justify-content:center;height:5rem;margin:0 auto;padding:0;width:5rem}.login #login>h1 a{display:block;font-weight:700;height:auto;font-size:0;line-height:1;margin:0 auto;overflow:visible;padding:0;text-align:center;color:#0073aa;color:var(--login-brand,#0073aa);width:auto;text-indent:0;background-image:none}.login #login>h1 a:first-letter{font-size:3rem;line-height:1}.login #login #loginform,.login #login #lostpasswordform,.login #login #registerform,.login #login #resetpassform,.login #login .admin-email-confirm-form{background-color:#191919;background-color:var(--login-trim,#191919);border-radius:.25rem;border-style:none;padding:2rem;--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.login #login #loginform label,.login #login #lostpasswordform label,.login #login #registerform label,.login #login #resetpassform label,.login #login .admin-email-confirm-form label{font-weight:500;color:#fff;color:var(--login-trim-invert,#fff);text-transform:uppercase}.login #login #loginform .admin-email__heading,.login #login #lostpasswordform .admin-email__heading,.login #login #registerform .admin-email__heading,.login #login #resetpassform .admin-email__heading,.login #login .admin-email-confirm-form .admin-email__heading{border-color:#0073aa;border-color:var(--login-brand,#0073aa);border-bottom-width:1px;font-weight:600;font-size:1.25rem;line-height:1.75rem;color:#fff;color:var(--login-trim-invert,#fff)}.login #login #loginform .admin-email__details,.login #login #lostpasswordform .admin-email__details,.login #login #registerform .admin-email__details,.login #login #resetpassform .admin-email__details,.login #login .admin-email-confirm-form .admin-email__details{font-size:.875rem;line-height:1.25rem}.login #login #loginform .wp-hide-pw,.login #login #lostpasswordform .wp-hide-pw,.login #login #registerform .wp-hide-pw,.login #login #resetpassform .wp-hide-pw,.login #login .admin-email-confirm-form .wp-hide-pw{border-style:none;margin-top:.25rem;color:#0073aa;color:var(--login-brand,#0073aa)}.login #login #loginform input[type=email],.login #login #loginform input[type=password],.login #login #loginform input[type=text],.login #login #lostpasswordform input[type=email],.login #login #lostpasswordform input[type=password],.login #login #lostpasswordform input[type=text],.login #login #registerform input[type=email],.login #login #registerform input[type=password],.login #login #registerform input[type=text],.login #login #resetpassform input[type=email],.login #login #resetpassform input[type=password],.login #login #resetpassform input[type=text],.login #login .admin-email-confirm-form input[type=email],.login #login .admin-email-confirm-form input[type=password],.login #login .admin-email-confirm-form input[type=text]{background-color:#282828;background-color:var(--login-trim-alt,#282828);border-color:#191919;border-color:var(--login-trim,#191919);border-width:1px;margin-top:.25rem;padding:.25rem .5rem;color:#fff;color:var(--login-trim-alt-invert,#fff)}.login #login #loginform input[type=checkbox],.login #login #lostpasswordform input[type=checkbox],.login #login #registerform input[type=checkbox],.login #login #resetpassform input[type=checkbox],.login #login .admin-email-confirm-form input[type=checkbox]{background-color:#282828;background-color:var(--login-trim-alt,#282828);border-color:#191919;border-color:var(--login-trim,#191919);border-width:1px;--tw-shadow:0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);color:#fff;color:var(--login-trim-alt-invert,#fff)}.login #login #loginform input:checked:before,.login #login #lostpasswordform input:checked:before,.login #login #registerform input:checked:before,.login #login #resetpassform input:checked:before,.login #login .admin-email-confirm-form input:checked:before{opacity:.5;content:url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwwww3org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M1483%20489l13494-581%20838H902L578%20967l134-125%20257%2024z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E")}.login #login #loginform input:focus,.login #login #loginform input:hover,.login #login #lostpasswordform input:focus,.login #login #lostpasswordform input:hover,.login #login #registerform input:focus,.login #login #registerform input:hover,.login #login #resetpassform input:focus,.login #login #resetpassform input:hover,.login #login .admin-email-confirm-form input:focus,.login #login .admin-email-confirm-form input:hover{--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);border-color:#0073aa;border-color:var(--login-brand,#0073aa)}.login #login #loginform #correct-admin-email,.login #login #loginform #wp-submit,.login #login #loginform .wp-generate-pw,.login #login #lostpasswordform #correct-admin-email,.login #login #lostpasswordform #wp-submit,.login #login #lostpasswordform .wp-generate-pw,.login #login #registerform #correct-admin-email,.login #login #registerform #wp-submit,.login #login #registerform .wp-generate-pw,.login #login #resetpassform #correct-admin-email,.login #login #resetpassform #wp-submit,.login #login #resetpassform .wp-generate-pw,.login #login .admin-email-confirm-form #correct-admin-email,.login #login .admin-email-confirm-form #wp-submit,.login #login .admin-email-confirm-form .wp-generate-pw{background-color:#0073aa;background-color:var(--login-brand,#0073aa);border-style:none;cursor:pointer;outline:2px solid transparent;outline-offset:2px;padding:0 .5rem;--tw-shadow:0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);color:#fff;color:var(--login-brand-invert,#fff)}.login #login #loginform #correct-admin-email:active,.login #login #loginform #correct-admin-email:focus,.login #login #loginform #correct-admin-email:hover,.login #login #loginform #wp-submit:active,.login #login #loginform #wp-submit:focus,.login #login #loginform #wp-submit:hover,.login #login #loginform .wp-generate-pw:active,.login #login #loginform .wp-generate-pw:focus,.login #login #loginform .wp-generate-pw:hover,.login #login #lostpasswordform #correct-admin-email:active,.login #login #lostpasswordform #correct-admin-email:focus,.login #login #lostpasswordform #correct-admin-email:hover,.login #login #lostpasswordform #wp-submit:active,.login #login #lostpasswordform #wp-submit:focus,.login #login #lostpasswordform #wp-submit:hover,.login #login #lostpasswordform .wp-generate-pw:active,.login #login #lostpasswordform .wp-generate-pw:focus,.login #login #lostpasswordform .wp-generate-pw:hover,.login #login #registerform #correct-admin-email:active,.login #login #registerform #correct-admin-email:focus,.login #login #registerform #correct-admin-email:hover,.login #login #registerform #wp-submit:active,.login #login #registerform #wp-submit:focus,.login #login #registerform #wp-submit:hover,.login #login #registerform .wp-generate-pw:active,.login #login #registerform .wp-generate-pw:focus,.login #login #registerform .wp-generate-pw:hover,.login #login #resetpassform #correct-admin-email:active,.login #login #resetpassform #correct-admin-email:focus,.login #login #resetpassform #correct-admin-email:hover,.login #login #resetpassform #wp-submit:active,.login #login #resetpassform #wp-submit:focus,.login #login #resetpassform #wp-submit:hover,.login #login #resetpassform .wp-generate-pw:active,.login #login #resetpassform .wp-generate-pw:focus,.login #login #resetpassform .wp-generate-pw:hover,.login #login .admin-email-confirm-form #correct-admin-email:active,.login #login .admin-email-confirm-form #correct-admin-email:focus,.login #login .admin-email-confirm-form #correct-admin-email:hover,.login #login .admin-email-confirm-form #wp-submit:active,.login #login .admin-email-confirm-form #wp-submit:focus,.login #login .admin-email-confirm-form #wp-submit:hover,.login #login .admin-email-confirm-form .wp-generate-pw:active,.login #login .admin-email-confirm-form .wp-generate-pw:focus,.login #login .admin-email-confirm-form .wp-generate-pw:hover{background-color:#0073aa;background-color:var(--login-brand,#0073aa)}.login #login #loginform #correct-admin-email.button-primary-disabled,.login #login #loginform #correct-admin-email.disabled,.login #login #loginform #correct-admin-email:disabled,.login #login #loginform #correct-admin-email[disabled],.login #login #loginform #wp-submit.button-primary-disabled,.login #login #loginform #wp-submit.disabled,.login #login #loginform #wp-submit:disabled,.login #login #loginform #wp-submit[disabled],.login #login #loginform .wp-generate-pw.button-primary-disabled,.login #login #loginform .wp-generate-pw.disabled,.login #login #loginform .wp-generate-pw:disabled,.login #login #loginform .wp-generate-pw[disabled],.login #login #lostpasswordform #correct-admin-email.button-primary-disabled,.login #login #lostpasswordform #correct-admin-email.disabled,.login #login #lostpasswordform #correct-admin-email:disabled,.login #login #lostpasswordform #correct-admin-email[disabled],.login #login #lostpasswordform #wp-submit.button-primary-disabled,.login #login #lostpasswordform #wp-submit.disabled,.login #login #lostpasswordform #wp-submit:disabled,.login #login #lostpasswordform #wp-submit[disabled],.login #login #lostpasswordform .wp-generate-pw.button-primary-disabled,.login #login #lostpasswordform .wp-generate-pw.disabled,.login #login #lostpasswordform .wp-generate-pw:disabled,.login #login #lostpasswordform .wp-generate-pw[disabled],.login #login #registerform #correct-admin-email.button-primary-disabled,.login #login #registerform #correct-admin-email.disabled,.login #login #registerform #correct-admin-email:disabled,.login #login #registerform #correct-admin-email[disabled],.login #login #registerform #wp-submit.button-primary-disabled,.login #login #registerform #wp-submit.disabled,.login #login #registerform #wp-submit:disabled,.login #login #registerform #wp-submit[disabled],.login #login #registerform .wp-generate-pw.button-primary-disabled,.login #login #registerform .wp-generate-pw.disabled,.login #login #registerform .wp-generate-pw:disabled,.login #login #registerform .wp-generate-pw[disabled],.login #login #resetpassform #correct-admin-email.button-primary-disabled,.login #login #resetpassform #correct-admin-email.disabled,.login #login #resetpassform #correct-admin-email:disabled,.login #login #resetpassform #correct-admin-email[disabled],.login #login #resetpassform #wp-submit.button-primary-disabled,.login #login #resetpassform #wp-submit.disabled,.login #login #resetpassform #wp-submit:disabled,.login #login #resetpassform #wp-submit[disabled],.login #login #resetpassform .wp-generate-pw.button-primary-disabled,.login #login #resetpassform .wp-generate-pw.disabled,.login #login #resetpassform .wp-generate-pw:disabled,.login #login #resetpassform .wp-generate-pw[disabled],.login #login .admin-email-confirm-form #correct-admin-email.button-primary-disabled,.login #login .admin-email-confirm-form #correct-admin-email.disabled,.login #login .admin-email-confirm-form #correct-admin-email:disabled,.login #login .admin-email-confirm-form #correct-admin-email[disabled],.login #login .admin-email-confirm-form #wp-submit.button-primary-disabled,.login #login .admin-email-confirm-form #wp-submit.disabled,.login #login .admin-email-confirm-form #wp-submit:disabled,.login #login .admin-email-confirm-form #wp-submit[disabled],.login #login .admin-email-confirm-form .wp-generate-pw.button-primary-disabled,.login #login .admin-email-confirm-form .wp-generate-pw.disabled,.login #login .admin-email-confirm-form .wp-generate-pw:disabled,.login #login .admin-email-confirm-form .wp-generate-pw[disabled]{background-color:#0073aa;background-color:var(--login-brand,#0073aa);border-style:none;cursor:not-allowed;--tw-shadow:0 0 transparent;box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);color:#fff;color:var(--login-brand-invert,#fff)}.login #login #loginform a.button,.login #login #lostpasswordform a.button,.login #login #registerform a.button,.login #login #resetpassform a.button,.login #login .admin-email-confirm-form a.button{background-color:#282828;background-color:var(--login-trim-alt,#282828);border-style:none;cursor:pointer;outline:2px solid transparent;outline-offset:2px;padding:0 .5rem;--tw-shadow:0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);color:#fff;color:var(--login-trim-alt-invert,#fff)}.login #login #loginform a.button:active,.login #login #loginform a.button:focus,.login #login #loginform a.button:hover,.login #login #lostpasswordform a.button:active,.login #login #lostpasswordform a.button:focus,.login #login #lostpasswordform a.button:hover,.login #login #registerform a.button:active,.login #login #registerform a.button:focus,.login #login #registerform a.button:hover,.login #login #resetpassform a.button:active,.login #login #resetpassform a.button:focus,.login #login #resetpassform a.button:hover,.login #login .admin-email-confirm-form a.button:active,.login #login .admin-email-confirm-form a.button:focus,.login #login .admin-email-confirm-form a.button:hover{background-color:#282828;background-color:var(--login-trim-alt,#282828)}.login #login #loginform a.button.button-primary-disabled,.login #login #loginform a.button.disabled,.login #login #loginform a.button:disabled,.login #login #loginform a.button[disabled],.login #login #lostpasswordform a.button.button-primary-disabled,.login #login #lostpasswordform a.button.disabled,.login #login #lostpasswordform a.button:disabled,.login #login #lostpasswordform a.button[disabled],.login #login #registerform a.button.button-primary-disabled,.login #login #registerform a.button.disabled,.login #login #registerform a.button:disabled,.login #login #registerform a.button[disabled],.login #login #resetpassform a.button.button-primary-disabled,.login #login #resetpassform a.button.disabled,.login #login #resetpassform a.button:disabled,.login #login #resetpassform a.button[disabled],.login #login .admin-email-confirm-form a.button.button-primary-disabled,.login #login .admin-email-confirm-form a.button.disabled,.login #login .admin-email-confirm-form a.button:disabled,.login #login .admin-email-confirm-form a.button[disabled]{background-color:#282828;background-color:var(--login-trim-alt,#282828);border-style:none;cursor:not-allowed;opacity:.75;--tw-shadow:0 0 transparent;box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);color:#fff;color:var(--login-trim-alt-invert,#fff)}.login #login #loginform .forgetmenot,.login #login #lostpasswordform .forgetmenot,.login #login #registerform .forgetmenot,.login #login #resetpassform .forgetmenot,.login #login .admin-email-confirm-form .forgetmenot{display:flex;align-items:center;margin-top:.25rem}.login #login #loginform .forgetmenot input,.login #login #lostpasswordform .forgetmenot input,.login #login #registerform .forgetmenot input,.login #login #resetpassform .forgetmenot input,.login #login .admin-email-confirm-form .forgetmenot input{margin:0}.login #login #loginform .forgetmenot label,.login #login #lostpasswordform .forgetmenot label,.login #login #registerform .forgetmenot label,.login #login #resetpassform .forgetmenot label,.login #login .admin-email-confirm-form .forgetmenot label{font-weight:400;margin-top:0;margin-bottom:0;margin-left:.5rem;opacity:.5}.login #login #backtoblog{text-align:center}.login #login #backtoblog a{opacity:.75;color:#fff;color:var(--login-brand-invert,#fff)}.login #login #backtoblog a:focus,.login #login #backtoblog a:hover{opacity:1;color:#fff;color:var(--login-brand-invert,#fff);text-decoration:underline}.login #login #nav{margin:.75rem 0 0;padding:0;text-align:center}.login #login #nav a{opacity:.75;color:#fff;color:var(--login-brand-invert,#fff)}.login #login #nav a:focus,.login #login #nav a:hover{opacity:1;color:#fff;color:var(--login-brand-invert,#fff);text-decoration:underline}.login #login #login_error,.login #login .message{background-color:#191919;background-color:var(--login-trim,#191919);border-left-width:4px;font-size:.875rem;line-height:1.25rem;margin-top:1rem;margin-bottom:1rem;color:#fff;color:var(--login-trim-invert,#fff)}.login #login #login_error a,.login #login .message a{opacity:.75;color:#0073aa;color:var(--login-brand,#0073aa)}.login #login #login_error a:focus,.login #login #login_error a:hover,.login #login .message a:focus,.login #login .message a:hover{opacity:1;color:#0073aa;color:var(--login-brand,#0073aa)}.login #login .message{--tw-border-opacity:1;border-color:rgba(16,185,129,var(--tw-border-opacity))}.login #login #login_error{--tw-border-opacity:1;border-color:rgba(239,68,68,var(--tw-border-opacity))}
+.login {
+  background-color: #0073aa;
+  background-color: var(--login-brand, #0073aa);
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #fff;
+  color: var(--login-brand-invert, #fff);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  .login #login {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    padding: 0.75rem;
+  }
+  .login #login a {
+      color: #0073aa;
+      color: var(--login-brand, #0073aa)
+    }
+  .login #login a:hover, .login #login a:focus {
+        --tw-shadow: 0 0 rgba(0,0,0,0);
+        box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+      }
+  .login #login > h1 {
+      background-color: #191919;
+      background-color: var(--login-trim, #191919);
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 5rem;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0px;
+      width: 5rem;
+    }
+  .login #login > h1 a {
+        background-image: none;
+        display: block;
+        font-weight: 700;
+        height: auto;
+        font-size: 0;
+        line-height: 1;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: visible;
+        padding: 0px;
+        text-align: center;
+        color: #0073aa;
+        color: var(--login-brand, #0073aa);
+        width: auto;
+        text-indent: 0;
+        background-image: none
+      }
+  .login #login > h1 a::first-letter {
+          font-size: 3rem;
+          line-height: 1;
+        }
+  .login #login #loginform, .login #login #registerform, .login #login #resetpassform, .login #login #lostpasswordform, .login #login .admin-email-confirm-form {
+      background-color: #191919;
+      background-color: var(--login-trim, #191919);
+      border-radius: 0.25rem;
+      border-style: none;
+      padding: 2rem;
+      --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+    }
+  .login #login #loginform label, .login #login #registerform label, .login #login #resetpassform label, .login #login #lostpasswordform label, .login #login .admin-email-confirm-form label {
+        font-weight: 500;
+        color: #fff;
+        color: var(--login-trim-invert, #fff);
+        text-transform: uppercase;
+      }
+  .login #login #loginform .admin-email__heading, .login #login #registerform .admin-email__heading, .login #login #resetpassform .admin-email__heading, .login #login #lostpasswordform .admin-email__heading, .login #login .admin-email-confirm-form .admin-email__heading {
+        border-color: #0073aa;
+        border-color: var(--login-brand, #0073aa);
+        border-bottom-width: 1px;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: #fff;
+        color: var(--login-trim-invert, #fff);
+      }
+  .login #login #loginform .admin-email__details, .login #login #registerform .admin-email__details, .login #login #resetpassform .admin-email__details, .login #login #lostpasswordform .admin-email__details, .login #login .admin-email-confirm-form .admin-email__details {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+  .login #login #loginform .wp-hide-pw, .login #login #registerform .wp-hide-pw, .login #login #resetpassform .wp-hide-pw, .login #login #lostpasswordform .wp-hide-pw, .login #login .admin-email-confirm-form .wp-hide-pw {
+        border-style: none;
+        margin-top: 0.25rem;
+        color: #0073aa;
+        color: var(--login-brand, #0073aa);
+      }
+  .login #login #loginform input[type="text"], .login #login #loginform input[type="email"], .login #login #loginform input[type="password"], .login #login #registerform input[type="text"], .login #login #registerform input[type="email"], .login #login #registerform input[type="password"], .login #login #resetpassform input[type="text"], .login #login #resetpassform input[type="email"], .login #login #resetpassform input[type="password"], .login #login #lostpasswordform input[type="text"], .login #login #lostpasswordform input[type="email"], .login #login #lostpasswordform input[type="password"], .login #login .admin-email-confirm-form input[type="text"], .login #login .admin-email-confirm-form input[type="email"], .login #login .admin-email-confirm-form input[type="password"] {
+        background-color: #282828;
+        background-color: var(--login-trim-alt, #282828);
+        border-color: #191919;
+        border-color: var(--login-trim, #191919);
+        border-width: 1px;
+        margin-top: 0.25rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        color: #fff;
+        color: var(--login-trim-alt-invert, #fff);
+      }
+  .login #login #loginform input[type="checkbox"], .login #login #registerform input[type="checkbox"], .login #login #resetpassform input[type="checkbox"], .login #login #lostpasswordform input[type="checkbox"], .login #login .admin-email-confirm-form input[type="checkbox"] {
+        background-color: #282828;
+        background-color: var(--login-trim-alt, #282828);
+        border-color: #191919;
+        border-color: var(--login-trim, #191919);
+        border-width: 1px;
+        --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+        color: #fff;
+        color: var(--login-trim-alt-invert, #fff);
+      }
+  .login #login #loginform input:checked::before, .login #login #registerform input:checked::before, .login #login #resetpassform input:checked::before, .login #login #lostpasswordform input:checked::before, .login #login .admin-email-confirm-form input:checked::before {
+        opacity: 0.5;
+        content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwwww3org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M1483%20489l13494-581%20838H902L578%20967l134-125%20257%2024z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");
+      }
+  .login #login #loginform input:focus, .login #login #loginform input:hover, .login #login #registerform input:focus, .login #login #registerform input:hover, .login #login #resetpassform input:focus, .login #login #resetpassform input:hover, .login #login #lostpasswordform input:focus, .login #login #lostpasswordform input:hover, .login #login .admin-email-confirm-form input:focus, .login #login .admin-email-confirm-form input:hover {
+        --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+      }
+  .login #login #loginform input:focus, .login #login #loginform input:hover, .login #login #registerform input:focus, .login #login #registerform input:hover, .login #login #resetpassform input:focus, .login #login #resetpassform input:hover, .login #login #lostpasswordform input:focus, .login #login #lostpasswordform input:hover, .login #login .admin-email-confirm-form input:focus, .login #login .admin-email-confirm-form input:hover {
+        border-color: #0073aa;
+        border-color: var(--login-brand, #0073aa);
+      }
+  .login #login #loginform .wp-generate-pw, .login #login #loginform #wp-submit, .login #login #loginform #correct-admin-email, .login #login #registerform .wp-generate-pw, .login #login #registerform #wp-submit, .login #login #registerform #correct-admin-email, .login #login #resetpassform .wp-generate-pw, .login #login #resetpassform #wp-submit, .login #login #resetpassform #correct-admin-email, .login #login #lostpasswordform .wp-generate-pw, .login #login #lostpasswordform #wp-submit, .login #login #lostpasswordform #correct-admin-email, .login #login .admin-email-confirm-form .wp-generate-pw, .login #login .admin-email-confirm-form #wp-submit, .login #login .admin-email-confirm-form #correct-admin-email {
+        background-color: #0073aa;
+        background-color: var(--login-brand, #0073aa);
+        border-style: none;
+        cursor: pointer;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+        color: #fff;
+        color: var(--login-brand-invert, #fff);
+      }
+  .login #login #loginform .wp-generate-pw:active, .login #login #loginform .wp-generate-pw:hover, .login #login #loginform .wp-generate-pw:focus, .login #login #loginform #wp-submit:active, .login #login #loginform #wp-submit:hover, .login #login #loginform #wp-submit:focus, .login #login #loginform #correct-admin-email:active, .login #login #loginform #correct-admin-email:hover, .login #login #loginform #correct-admin-email:focus, .login #login #registerform .wp-generate-pw:active, .login #login #registerform .wp-generate-pw:hover, .login #login #registerform .wp-generate-pw:focus, .login #login #registerform #wp-submit:active, .login #login #registerform #wp-submit:hover, .login #login #registerform #wp-submit:focus, .login #login #registerform #correct-admin-email:active, .login #login #registerform #correct-admin-email:hover, .login #login #registerform #correct-admin-email:focus, .login #login #resetpassform .wp-generate-pw:active, .login #login #resetpassform .wp-generate-pw:hover, .login #login #resetpassform .wp-generate-pw:focus, .login #login #resetpassform #wp-submit:active, .login #login #resetpassform #wp-submit:hover, .login #login #resetpassform #wp-submit:focus, .login #login #resetpassform #correct-admin-email:active, .login #login #resetpassform #correct-admin-email:hover, .login #login #resetpassform #correct-admin-email:focus, .login #login #lostpasswordform .wp-generate-pw:active, .login #login #lostpasswordform .wp-generate-pw:hover, .login #login #lostpasswordform .wp-generate-pw:focus, .login #login #lostpasswordform #wp-submit:active, .login #login #lostpasswordform #wp-submit:hover, .login #login #lostpasswordform #wp-submit:focus, .login #login #lostpasswordform #correct-admin-email:active, .login #login #lostpasswordform #correct-admin-email:hover, .login #login #lostpasswordform #correct-admin-email:focus, .login #login .admin-email-confirm-form .wp-generate-pw:active, .login #login .admin-email-confirm-form .wp-generate-pw:hover, .login #login .admin-email-confirm-form .wp-generate-pw:focus, .login #login .admin-email-confirm-form #wp-submit:active, .login #login .admin-email-confirm-form #wp-submit:hover, .login #login .admin-email-confirm-form #wp-submit:focus, .login #login .admin-email-confirm-form #correct-admin-email:active, .login #login .admin-email-confirm-form #correct-admin-email:hover, .login #login .admin-email-confirm-form #correct-admin-email:focus {
+          background-color: #0073aa;
+          background-color: var(--login-brand, #0073aa);
+        }
+  .login #login #loginform .wp-generate-pw[disabled], .login #login #loginform .wp-generate-pw:disabled, .login #login #loginform .wp-generate-pw.button-primary-disabled, .login #login #loginform .wp-generate-pw.disabled, .login #login #loginform #wp-submit[disabled], .login #login #loginform #wp-submit:disabled, .login #login #loginform #wp-submit.button-primary-disabled, .login #login #loginform #wp-submit.disabled, .login #login #loginform #correct-admin-email[disabled], .login #login #loginform #correct-admin-email:disabled, .login #login #loginform #correct-admin-email.button-primary-disabled, .login #login #loginform #correct-admin-email.disabled, .login #login #registerform .wp-generate-pw[disabled], .login #login #registerform .wp-generate-pw:disabled, .login #login #registerform .wp-generate-pw.button-primary-disabled, .login #login #registerform .wp-generate-pw.disabled, .login #login #registerform #wp-submit[disabled], .login #login #registerform #wp-submit:disabled, .login #login #registerform #wp-submit.button-primary-disabled, .login #login #registerform #wp-submit.disabled, .login #login #registerform #correct-admin-email[disabled], .login #login #registerform #correct-admin-email:disabled, .login #login #registerform #correct-admin-email.button-primary-disabled, .login #login #registerform #correct-admin-email.disabled, .login #login #resetpassform .wp-generate-pw[disabled], .login #login #resetpassform .wp-generate-pw:disabled, .login #login #resetpassform .wp-generate-pw.button-primary-disabled, .login #login #resetpassform .wp-generate-pw.disabled, .login #login #resetpassform #wp-submit[disabled], .login #login #resetpassform #wp-submit:disabled, .login #login #resetpassform #wp-submit.button-primary-disabled, .login #login #resetpassform #wp-submit.disabled, .login #login #resetpassform #correct-admin-email[disabled], .login #login #resetpassform #correct-admin-email:disabled, .login #login #resetpassform #correct-admin-email.button-primary-disabled, .login #login #resetpassform #correct-admin-email.disabled, .login #login #lostpasswordform .wp-generate-pw[disabled], .login #login #lostpasswordform .wp-generate-pw:disabled, .login #login #lostpasswordform .wp-generate-pw.button-primary-disabled, .login #login #lostpasswordform .wp-generate-pw.disabled, .login #login #lostpasswordform #wp-submit[disabled], .login #login #lostpasswordform #wp-submit:disabled, .login #login #lostpasswordform #wp-submit.button-primary-disabled, .login #login #lostpasswordform #wp-submit.disabled, .login #login #lostpasswordform #correct-admin-email[disabled], .login #login #lostpasswordform #correct-admin-email:disabled, .login #login #lostpasswordform #correct-admin-email.button-primary-disabled, .login #login #lostpasswordform #correct-admin-email.disabled, .login #login .admin-email-confirm-form .wp-generate-pw[disabled], .login #login .admin-email-confirm-form .wp-generate-pw:disabled, .login #login .admin-email-confirm-form .wp-generate-pw.button-primary-disabled, .login #login .admin-email-confirm-form .wp-generate-pw.disabled, .login #login .admin-email-confirm-form #wp-submit[disabled], .login #login .admin-email-confirm-form #wp-submit:disabled, .login #login .admin-email-confirm-form #wp-submit.button-primary-disabled, .login #login .admin-email-confirm-form #wp-submit.disabled, .login #login .admin-email-confirm-form #correct-admin-email[disabled], .login #login .admin-email-confirm-form #correct-admin-email:disabled, .login #login .admin-email-confirm-form #correct-admin-email.button-primary-disabled, .login #login .admin-email-confirm-form #correct-admin-email.disabled {
+          background-color: #0073aa;
+          background-color: var(--login-brand, #0073aa);
+          border-style: none;
+          cursor: not-allowed;
+          --tw-shadow: 0 0 rgba(0,0,0,0);
+          box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+          color: #fff;
+          color: var(--login-brand-invert, #fff);
+        }
+  .login #login #loginform a.button, .login #login #registerform a.button, .login #login #resetpassform a.button, .login #login #lostpasswordform a.button, .login #login .admin-email-confirm-form a.button {
+        background-color: #282828;
+        background-color: var(--login-trim-alt, #282828);
+        border-style: none;
+        cursor: pointer;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+        color: #fff;
+        color: var(--login-trim-alt-invert, #fff)
+      }
+  .login #login #loginform a.button:active, .login #login #loginform a.button:hover, .login #login #loginform a.button:focus, .login #login #registerform a.button:active, .login #login #registerform a.button:hover, .login #login #registerform a.button:focus, .login #login #resetpassform a.button:active, .login #login #resetpassform a.button:hover, .login #login #resetpassform a.button:focus, .login #login #lostpasswordform a.button:active, .login #login #lostpasswordform a.button:hover, .login #login #lostpasswordform a.button:focus, .login #login .admin-email-confirm-form a.button:active, .login #login .admin-email-confirm-form a.button:hover, .login #login .admin-email-confirm-form a.button:focus {
+          background-color: #282828;
+          background-color: var(--login-trim-alt, #282828);
+        }
+  .login #login #loginform a.button[disabled], .login #login #loginform a.button:disabled, .login #login #loginform a.button.button-primary-disabled, .login #login #loginform a.button.disabled, .login #login #registerform a.button[disabled], .login #login #registerform a.button:disabled, .login #login #registerform a.button.button-primary-disabled, .login #login #registerform a.button.disabled, .login #login #resetpassform a.button[disabled], .login #login #resetpassform a.button:disabled, .login #login #resetpassform a.button.button-primary-disabled, .login #login #resetpassform a.button.disabled, .login #login #lostpasswordform a.button[disabled], .login #login #lostpasswordform a.button:disabled, .login #login #lostpasswordform a.button.button-primary-disabled, .login #login #lostpasswordform a.button.disabled, .login #login .admin-email-confirm-form a.button[disabled], .login #login .admin-email-confirm-form a.button:disabled, .login #login .admin-email-confirm-form a.button.button-primary-disabled, .login #login .admin-email-confirm-form a.button.disabled {
+          background-color: #282828;
+          background-color: var(--login-trim-alt, #282828);
+          border-style: none;
+          cursor: not-allowed;
+          opacity: 0.75;
+          --tw-shadow: 0 0 rgba(0,0,0,0);
+          box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+          color: #fff;
+          color: var(--login-trim-alt-invert, #fff);
+        }
+  .login #login #loginform .forgetmenot, .login #login #registerform .forgetmenot, .login #login #resetpassform .forgetmenot, .login #login #lostpasswordform .forgetmenot, .login #login .admin-email-confirm-form .forgetmenot {
+        display: flex;
+        align-items: center;
+        margin-top: 0.25rem;
+      }
+  .login #login #loginform .forgetmenot input, .login #login #registerform .forgetmenot input, .login #login #resetpassform .forgetmenot input, .login #login #lostpasswordform .forgetmenot input, .login #login .admin-email-confirm-form .forgetmenot input {
+          margin: 0px;
+        }
+  .login #login #loginform .forgetmenot label, .login #login #registerform .forgetmenot label, .login #login #resetpassform .forgetmenot label, .login #login #lostpasswordform .forgetmenot label, .login #login .admin-email-confirm-form .forgetmenot label {
+          font-weight: 400;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          margin-left: 0.5rem;
+          opacity: 0.5;
+        }
+  .login #login #backtoblog {
+      text-align: center;
+    }
+  .login #login #backtoblog a {
+        opacity: 0.75;
+        color: #fff;
+        color: var(--login-brand-invert, #fff)
+      }
+  .login #login #backtoblog a:hover, .login #login #backtoblog a:focus {
+          opacity: 1;
+          color: #fff;
+          color: var(--login-brand-invert, #fff);
+          text-decoration: underline;
+        }
+  .login #login #nav {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-top: 0.75rem;
+      padding: 0px;
+      text-align: center;
+    }
+  .login #login #nav a {
+        opacity: 0.75;
+        color: #fff;
+        color: var(--login-brand-invert, #fff)
+      }
+  .login #login #nav a:hover, .login #login #nav a:focus {
+          opacity: 1;
+          color: #fff;
+          color: var(--login-brand-invert, #fff);
+          text-decoration: underline;
+        }
+  .login #login .message, .login #login #login_error {
+      background-color: #191919;
+      background-color: var(--login-trim, #191919);
+      border-left-width: 4px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      color: #fff;
+      color: var(--login-trim-invert, #fff);
+    }
+  .login #login .message a, .login #login #login_error a {
+        opacity: 0.75;
+        color: #0073aa;
+        color: var(--login-brand, #0073aa)
+      }
+  .login #login .message a:hover, .login #login .message a:focus, .login #login #login_error a:hover, .login #login #login_error a:focus {
+          opacity: 1;
+          color: #0073aa;
+          color: var(--login-brand, #0073aa);
+        }
+  .login #login .message {
+      --tw-border-opacity: 1;
+      border-color: rgba(16, 185, 129, var(--tw-border-opacity));
+    }
+  .login #login #login_error {
+      --tw-border-opacity: 1;
+      border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+    }
+

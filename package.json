@@ -1,13 +1,14 @@
 {
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "@wordpress/env": "^4.2.0",
+    "browser-sync": "^2.27.7",
     "browser-sync-webpack-plugin": "^2.3.0",
-    "cross-env": "^7.0.0",
-    "laravel-mix": "^6.0.0",
-    "postcss": "^8.1",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.41",
+    "postcss": "^8.4",
     "precss": "^4.0.0",
-    "tailwindcss": "^2.0"
+    "tailwindcss": "^3.0"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
